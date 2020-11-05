@@ -1,0 +1,6 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content min-content;
+    grid-template-rows: 1fr;
+    align-items: end;
+}
