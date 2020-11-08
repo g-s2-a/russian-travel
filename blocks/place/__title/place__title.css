@@ -9,18 +9,21 @@
     padding-top: 92px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
     .place__title {
-        font-size: calc(72px - (768px - 100vw)/8.533333);
-        line-height: calc(76px - (768px - 100vw)/8.533333);
+        font-size: calc(72px - (1024px - 100vw)/((1024 - 768)/(72 - 42)));
+        line-height: calc(76px - (1024px - 100vw)/((1024 - 768)/(76 - 46)));
     }
 }
 
-@media screen and (max-width: 320px){
+
+@media screen and (max-width: 768px){
     .place__title {
         padding-top: 49px;
         padding-bottom: 32px;
         padding-left: 16px;
         padding-right: 16px;
+        font-size: calc(42px - (768px - 100vw)/((768 - 320)/(42 - 32)));
+        line-height: calc(46px - (768px - 100vw)/((768 - 320)/(46 - 35)));
     }
 }
