@@ -1,0 +1,19 @@
+.intro {
+    padding-top: 92px;
+    display: grid;
+    grid-template-columns: 48px minmax(500px,984px) 48px;
+    grid-template-rows: repeat(3,auto);
+}
+
+@media screen and (max-width: 768px){
+    .intro {
+        padding-top: 64px;
+        grid-template-columns: 24px 1fr 24px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .intro {
+        grid-template-columns: 16px 1fr 16px;
+    }
+}

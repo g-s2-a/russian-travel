@@ -1,0 +1,13 @@
+.place {
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 320px){
+    .place {
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
