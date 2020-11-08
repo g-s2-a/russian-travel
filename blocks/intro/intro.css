@@ -5,15 +5,17 @@
     grid-template-rows: repeat(3,auto);
 }
 
+
 @media screen and (max-width: 768px){
     .intro {
-        padding-top: 64px;
+        padding-top: 88px;
         grid-template-columns: 24px 1fr 24px;
     }
 }
 
 @media screen and (max-width: 320px){
     .intro {
+        padding-top: 64px;
         grid-template-columns: 16px 1fr 16px;
     }
 }

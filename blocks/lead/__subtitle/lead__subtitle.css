@@ -15,3 +15,9 @@
         max-width: calc(640px - (768px - 100vw)/1.2727);
     }
 }
+@media screen and (max-width: 320px){
+    .lead__subtitle {
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+}

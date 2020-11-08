@@ -16,7 +16,6 @@
     }
 }
 
-
 @media screen and (max-width: 768px){
     .place__title {
         padding-top: 49px;
@@ -25,5 +24,12 @@
         padding-right: 16px;
         font-size: calc(42px - (768px - 100vw)/((768 - 320)/(42 - 32)));
         line-height: calc(46px - (768px - 100vw)/((768 - 320)/(46 - 35)));
+    }
+}
+
+@media screen and (max-width: 320px){
+    .place__title {
+        padding-top: 64px;
+        padding-bottom: 32px;
     }
 }
