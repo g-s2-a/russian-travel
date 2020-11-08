@@ -20,7 +20,6 @@
     .place__title {
         padding-top: 72px;
         padding-bottom: 48px;
-        padding-left: 16px;
         padding-right: 16px;
         font-size: calc(42px - (768px - 100vw)/((768 - 320)/(42 - 32)));
         line-height: calc(46px - (768px - 100vw)/((768 - 320)/(46 - 35)));
