@@ -18,8 +18,8 @@
 
 @media screen and (max-width: 768px){
     .place__title {
-        padding-top: 49px;
-        padding-bottom: 32px;
+        padding-top: 72px;
+        padding-bottom: 48px;
         padding-left: 16px;
         padding-right: 16px;
         font-size: calc(42px - (768px - 100vw)/((768 - 320)/(42 - 32)));
@@ -29,7 +29,8 @@
 
 @media screen and (max-width: 320px){
     .place__title {
-        padding-top: 64px;
+        padding-top: 49px;
         padding-bottom: 32px;
+        padding-top: 49px;
     }
 }
