@@ -9,6 +9,7 @@
     padding-top: 92px;
     gap: 16px;
     list-style-type: none;
+    grid-auto-rows: 213px;
 }
 
 @media screen and (max-width: 1024px){
