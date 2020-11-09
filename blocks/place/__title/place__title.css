@@ -1,7 +1,5 @@
 .place__title {
     margin: 0;
-    font-family: Inter;
-    font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
@@ -20,10 +18,17 @@
     .place__title {
         padding-top: 72px;
         padding-bottom: 48px;
-        padding-right: 16px;
         font-size: calc(42px - (768px - 100vw)/((768 - 320)/(42 - 32)));
         line-height: calc(46px - (768px - 100vw)/((768 - 320)/(46 - 35)));
+        max-width: 330px;
     }
+}
+
+@media screen and (max-width: 600px){
+  .place__title {
+      padding-right: 16px;
+      padding-left: 16px;
+  }
 }
 
 @media screen and (max-width: 320px){

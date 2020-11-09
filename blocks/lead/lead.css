@@ -2,8 +2,6 @@
     display: grid;
     justify-items: center;
     max-width: 984px;
-    padding-left: calc(48px - (1024px - 100vw)/5.33333);
-    padding-right: calc(48px - (1024px - 100vw)/5.33333);
 }
 
 @media screen and (max-width: 768px){

@@ -7,8 +7,15 @@
     margin-bottom: 48px;
 }
 
+@media screen and (max-width: 600px){
+  .place__website {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+
 @media screen and (max-width: 320px){
-    .place__website {
-        display: none;
-    }
+  .place__website {
+      display: none;
+  }
 }

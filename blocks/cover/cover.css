@@ -5,7 +5,8 @@
     position: relative;
     margin: 0 auto;
     background-image: url(../../images/cover-trains.jpg);
-    width: 1184px;
+    width: 100%;
+    max-width: 1184px;
     height: 740px;
     display: flex;
     flex-direction: column;
@@ -32,16 +33,9 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 1280px){
-    .cover {
-        width: calc(1184px - (1280px - 100vw)/1.6);
-        height: calc(740px - (1280px - 100vw)/2.56);
-    }
-}
 
 @media screen and (max-width: 1080px){
     .cover {
-        width: 100%;
         height: calc(100vw/1.6);
     }
 }

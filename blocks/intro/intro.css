@@ -1,7 +1,7 @@
 .intro {
     padding-top: 92px;
     display: grid;
-    grid-template-columns: 48px minmax(500px,984px) 48px;
+    grid-template-columns: 0px minmax(500px,984px) 0px;
     grid-template-rows: repeat(3,auto);
 }
 
