@@ -2,13 +2,13 @@
     max-width: 984px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
 }
 
-@media screen and (max-width: 768px){
-    .place {
-        padding-left: 24px;
-        padding-right: 24px;
-    }
+@media screen and (max-width: 1024px){
+  .place {
+    column-gap: 32px;
+  }
 }
 
 @media screen and (max-width: 600px){
@@ -16,5 +16,6 @@
       display: block;
       padding-left: 0;
       padding-right: 0;
+      column-gap: 28px;
   }
 }

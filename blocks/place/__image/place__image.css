@@ -1,20 +1,11 @@
 .place__image {
     width: 100%;
     grid-row: 2/5;
-    padding-right: 40px;
     box-sizing: border-box;
-}
-
-@media screen and (max-width: 1280px){
-    .place__image {
-        padding-right: calc(40px - (1280px - 100vw)/32);
-    }
 }
 
 @media screen and (max-width: 600px){
     .place__image {
-        padding-left: 0;
-        padding-right: 0;
         padding-bottom: 32px;
     }
 }
